@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      uri:
+      - http://localhost:8888
+  application:
+    name: cities-ms
+server:
+  port: 8003

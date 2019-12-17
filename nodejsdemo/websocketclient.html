@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Document</title>
+</head>
+<body>
+
+<form>
+<div id="name-div">
+<input id="name" name="name" autocomplete="off" autofocus placeholder="Enter your nickname" />
+<button>Submit</button>
+</div>
+<div id="welcome"></div>
+<ul id="messages"></ul>
+<div id="input-div">
+<input id="message" name="message" autocomplete="off" placeholder="Type your message here" />
+<button>Send</button>
+</div>
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+websocket = new WebSocket("ws://9.193.99.42:8881/");
+$('form').submit(function() {
+name = $('#name').val() ? $('#name').val() : 'Anonymous';
+$('#name-div').hide();
+$('#welcome').text('Hello ' + name);
+websocket.send(JSON.stringify({
+name: name,
+message: $('#message').val()
+}));
+$('#message').focus();
+$('#message').val('');
+return false;
+});
+websocket.onmessage = function(evt) {
+$('#messages').append($('<li>').html(evt.data));
+};
+websocket.onerror = function(evt) {
+$('#messages').append($('<li>').html("<span style='color: red;'>ERROR:</span>" + evt));
+};
+</script>
+
+</body>
+</html>

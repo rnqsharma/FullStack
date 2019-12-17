@@ -1,0 +1,4 @@
+@import 'colors';
+@function center-width($value: 5px){
+    @return $app-size -($value*2);
+}

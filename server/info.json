@@ -1,0 +1,66 @@
+{
+  "info": [
+    {
+      "fullname": "raj",
+      "description": "loream ipsum blah blah",
+      "employment-status": "Full Time",
+      "skills": [
+        "indentation",
+        "fast"
+      ],
+      "majorquirk": "Pretends to know Ruby"
+    },
+    {
+      "id": 12,
+      "fullname": "raunaq",
+      "description": "hhshhhshhshh",
+      "employment-status": "Full Time",
+      "skills": [
+        "indentation",
+        "fast"
+      ],
+      "majorquirk": "Pretends to know Ruby"
+    },
+    {
+      "[{\"name\":\"fullname\",\"value\":\"Raunaq Sharma\"},{\"name\":\"description\",\"value\":\"rgtrehjteoirhjtekitje\"},{\"name\":\"employment-status\",\"value\":\"Full Time\"},{\"name\":\"indentation\",\"value\":\"indentation\"},{\"name\":\"quirk\",\"value\":\"donno\"}]": "",
+      "id": 13
+    },
+    {
+      "fullname": "ajfkjahsd",
+      "description": "gfnlkjrkjrgliwjr",
+      "employment-status": "Full Time",
+      "indentation": "indentation",
+      "quirk": "donno",
+      "id": 14
+    },
+    {
+      "fullname": "ouipesfs",
+      "description": "sfdsgfrvgfrsrfg",
+      "employment-status": "Full Time",
+      "indentation": "indentation",
+      "fast": "fast",
+      "quirk": "donno",
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "fullname": "ukjyunbb",
+      "description": "brgbhtty",
+      "employment-status": "Full Time",
+      "fast": "fast",
+      "quirk": "donno",
+      "id": 20
+    }
+  ]
+}

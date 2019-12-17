@@ -1,0 +1,25 @@
+body{
+    width: 400px;
+    margin: 0 auto;
+}
+header{
+    height: 50px;
+    background-color: red;
+}
+article{
+    height: 200px;
+    background-color: green;
+    float: left;
+    width: 250px;
+}
+aside{
+    background-color:blue; 
+    height: 200px;
+    width: 150px;
+    float: right;
+}
+footer{
+    height: 50px;
+    background-color: red;
+    clear: both;
+}

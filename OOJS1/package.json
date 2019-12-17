@@ -1,0 +1,13 @@
+{
+  "name": "es6_modules",
+  "version": "0.1.0",
+  "description": " ES6 modules",
+  "scripts": {
+    "start": "npm run webpack",
+    "webpack": "webpack -d --watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^3.0.0"
+  }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+ 
+        <div>  
+            <label for="user">Name:</label>
+            <input type="text" name="user"
+            required placeholder="Please Enter Username">
+        </div>
+ 
+        <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email"
+                required placeholder="abcx@info.com">
+            </div>
+ 
+            <div>
+                    <label for="dob">DateOfBirth:</label>
+                    <input type="date" name="dob"
+                    required placeholder="yyyy/mm/dd">
+                </div>
+            <div>
+ 
+                    <div>
+                            <label for="dob">DateOfBirthWeek:</label>
+                            <input type="week" name="dob"
+                            required placeholder="yyyy/mm/dd">
+                        </div>
+                    <div>
+ 
+ 
+                    <div>
+                            <label for="dobtime">DateOfBirthTime:</label>
+                            <input type="time" name="dobtime"
+                            required placeholder="yyyy/mm/dd hh:mm:ss">
+                        </div>
+ 
+                        <div>
+                                <label for="color">Color:</label>
+                                <input type="color" name="color"
+                                required >
+                            </div>
+ 
+                            <div>
+                                    <label for="range">Range:</label>
+                                    <input type="range" name="range"
+                                    required  start="0" step="2" max="10" value="4">
+                                </div>
+           
+<div>
+                            <input type="text" list="myDataList">
+                            <datalist id="myDataList">
+                                <option label="Mr." value="Mr."></option>
+                                <option label="Mrs." value="Mrs."></option>
+                                <option label="Ms." value="Ms."></option>
+                            </datalist>
+                        </div>
+                        <div>
+                            <label for="progress-data">Progress Bar: </label>
+                            <progress id="progress-data" value="5" max="15"></progress><br />
+                        </div>
+                        <div>
+                            <label for="meter-data">Meter: </label>
+                            <meter id="meter-data" min="10" max="100" value="80" low="20" high="70" optimum="50" ></meter>
+                        </div>
+                            <div>      
+        <input type="submit" value="Submit">
+                </div>
+ 
+    </form>
+
+</body>
+</html>

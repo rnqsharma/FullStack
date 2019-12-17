@@ -1,0 +1,26 @@
+.moveaside{
+    /* padding-left: 1px; */
+    float: right;
+    width: 18.99%;
+    font-size: 18px;
+    background-color: rgb(202, 156, 165);
+    height: 75%;
+}
+.mainSection{
+    float: left;
+    width: 81%;
+    background-color: rgb(180, 118, 131);
+    height: 75%;
+}
+.para{
+    /* float: left; */
+    width: 72%;
+}
+li:nth-child(2n+1){
+    background-color: burlywood;
+    width: 20%;
+}
+body{
+    border: 5px;
+
+}
